@@ -1,0 +1,54 @@
+{
+    "manufacturer": "positron_electronic",
+    "keyboard_name": "djmacropad",
+    "maintainer": "juarendra",
+    "bootloader": "caterina",
+    "processor": "atmega32u4",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x5611",
+        "vid": "0x6F75"
+    },
+    "rgb_matrix": {
+        "animations": {
+            "alphas_mods": true,
+            "gradient_up_down": true,
+            "gradient_left_right": true,
+            "breathing": true,
+            "band_sat": true,
+            "band_val": true,
+            "band_pinwheel_sat": true,
+            "band_pinwheel_val": true,
+            "band_spiral_sat": true,
+            "band_spiral_val": true,
+            "dual_beacon": true,
+            "rainbow_beacon": true,
+            "rainbow_pinwheels": true,
+            "raindrops": true,
+            "jellybean_raindrops": true,
+            "hue_breathing": true,
+            "hue_pendulum": true,
+            "typing_heatmap": true,
+            "digital_rain": true,
+            "solid_reactive_simple": true
+        },
+	"driver": "ws2812",
+        "max_brightness": 75,
+        "sleep": true
+    },
+    "layouts": {
+        "LAYOUT_ortho_4x4": {
+            "layout": [
+                { "matrix": [0, 0], "x": 0, "y": 0 },
+                { "matrix": [0, 1], "x": 1, "y": 0 },
+                { "matrix": [0, 2], "x": 2, "y": 0 },
+                { "matrix": [0, 3], "x": 3, "y": 0 },
+                { "matrix": [0, 4], "x": 4, "y": 0 },
+                { "matrix": [0, 5], "x": 5, "y": 0 },
+                { "matrix": [0, 6], "x": 6, "y": 0 },
+                { "matrix": [0, 7], "x": 7, "y": 0 },
+                { "matrix": [0, 8], "x": 8, "y": 0 }
+            ]
+        }
+    }
+}
